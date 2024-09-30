@@ -40,4 +40,5 @@ class SurveyGetQuestionAPITest(APITestCase):
             {"MatrixQuestion": {"text": "Rate these items", "order": 3, "rows": ["Item 1", "Item 2"], "columns": ["Bad", "Good"]}},
             {"RankingQuestion": {"text": "Rank these", "order": 4, "options": ["Option 1", "Option 2"]}}
         ]
+        print(response.data)
         self.assertEqual(response.data['questions'], expected_questions)

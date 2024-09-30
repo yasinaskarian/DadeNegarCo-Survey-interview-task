@@ -7,8 +7,7 @@ from survey_studio.models.Questions import (Survey, MatrixQuestion, MultipleChoi
 class SurveyUpdateQuestionsTest(APITestCase):
     def setUp(self):
         # Create a survey instance for testing
-        self.survey = Survey.objects.create(title=""
-                                                  "Test Survey")
+        self.survey = Survey.objects.create(title="Test Survey")
 
         self.url = reverse('survey-update-questions')
 
@@ -176,10 +175,10 @@ class SurveyUpdateQuestionsTest(APITestCase):
             "questions": [
                 {"RankingQuestion": {"text": "Rank these fruits", "order": 1, "options": ["Apple", "Banana", "Cherry"]}},
                 {"YesNoQuestion": {"text": "Do you like pizza?", "order": 2}},
-                {"YesNoQuestion": {"text": "Do you like burgers?", "order": 4}},
-                {"MultipleChoiceQuestion": {"text": "Select your favorite color", "order": 1,
+                {"YesNoQuestion": {"text": "Do you like burgers?", "order": 3}},
+                {"MultipleChoiceQuestion": {"text": "Select your favorite color", "order": 4,
                                             "options": ["Red", "Blue", "Green"]}},
-                {"MatrixQuestion": {"text": "What are your preferences?", "order": 1, "rows": ["Row 1", "Row 2"],
+                {"MatrixQuestion": {"text": "What are your preferences?", "order": 5, "rows": ["Row 1", "Row 2"],
                                     "columns": ["Column 1", "Column 2"]}}
 
             ]
