@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b70b05a-626b-4be2-a2fd-d4387df59f6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/SurveyApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SurveyApp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SurveyApp/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SurveyApp/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SurveyApp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SurveyApp/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-    </list>
+    <list default="true" id="4b70b05a-626b-4be2-a2fd-d4387df59f6d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +124,7 @@
       <updated>1727604442455</updated>
       <workItem from="1727604466581" duration="1209000" />
       <workItem from="1727605711084" duration="14124000" />
-      <workItem from="1727670198301" duration="8513000" />
+      <workItem from="1727670198301" duration="8834000" />
     </task>
     <servers />
   </component>
